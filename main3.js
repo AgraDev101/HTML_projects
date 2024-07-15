@@ -5,6 +5,8 @@ let input2 = document.getElementById("input2")
 let btn1 = document.getElementById("btn1")
 let completed = document.getElementById("myCheck")
 
+console.log(123)
+
 btn.addEventListener("click", async function addTask() {
     if (!input.value) {
         return
